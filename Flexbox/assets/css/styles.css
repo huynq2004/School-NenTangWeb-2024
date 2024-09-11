@@ -1,0 +1,35 @@
+header, footer{
+    padding: 30px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40vh;
+    align-items: center;
+}
+
+#content{
+    flex-grow: 2;
+}
+
+aside{
+    flex-grow: 1;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxes div{
+    background-color: #F2F1CA;
+    width: 23%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

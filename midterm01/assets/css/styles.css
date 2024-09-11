@@ -1,0 +1,96 @@
+html{
+    background-color: beige;
+}
+
+
+body{
+    margin: 0 10% 0 10%;
+    background-color: white;
+}
+
+nav{
+    background-color: palevioletred;
+    display: flex;
+}
+
+nav ul {
+    justify-content: start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    color: white;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    border: lightgrey;
+}
+
+li:hover{
+    color: black;
+}
+
+#search{
+    background-color: transparent;
+    justify-content: end;
+    padding: 10px 10px;
+    margin-left: auto;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#products{
+    display: flex;
+
+}
+
+#news{
+    width: 30%;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+#news h4{
+    color: white;
+    background-color: palevioletred;
+}
+#news li{
+    color: purple;
+}
+
+#product_details{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    padding: 5px;
+    width: 30% ;
+    text-align: center;
+    color: purple;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+#price{
+    font-weight: bold;
+}
+

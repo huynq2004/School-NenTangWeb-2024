@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+        <h3 class="text-white">Quản lý <strong>Giảng viên</strong></h3>
+        <button style="background-color: red; color: white">- Xóa</button>
+        <button style="background-color: green; color: white; ">+ Thêm mới</button>
+   
+    <table>
+        <thead>
+            <tr>
+                <td><input type="checkbox"></td>
+                <th>Họ và tên</th>
+                <th>Email</th>
+                <th>Địa chỉ</th>
+                <th>Số điện thoại</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Nguyễn Hồng Thơm</td>
+                <td>thomhongnguyen@mail.com</td>
+                <td>89 Nguyễn Trường Tộ, Hoàn Kiếm, Hà Nội</td>
+                <td>035 555 2222</td>
+                <td>
+                    <button><i class="fas fa-edit"></i></button>
+                    <button><i class="fas fa-trash"></i></button>
+                </td>
+            </tr>
+            <tr>            
+                <td><input type="checkbox"></td>
+                <td>Nguyễn Đông Phương</td>
+                <td>dongphuongnguyen@mail.com</td>
+                <td>57 Lê Duẩn, Đống Đa, Hà Nội</td>
+                <td>033 555 5735</td>
+                <td>
+                    <button><i class="fas fa-edit"></i></button>
+                    <button><i class="fas fa-trash"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Lê Mai An</td>
+                <td>maianly@mail.com</td>
+                <td>25 Hỏa Lô, Hoàn Kiếm, Hà Nội</td>
+                <td>035 555 9931</td>
+                <td>
+                    <button><i class="fas fa-edit"></i></button>
+                    <button><i class="fas fa-trash"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Phan Công Vinh</td>
+                <td>phancongvinh@mail.com</td>
+                <td>67 Mai Hắc Đế, Hai Bà Trưng, Hà Nội</td>
+                <td>034 619 5731</td>
+                <td>
+                    <button><i class="fas fa-edit"></i></button>
+                    <button><i class="fas fa-trash"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <form action="index.html" class="container">
+        <h3>Thêm Giảng viên</h3>
+        <label for="full-name">Họ và tên</label><br>
+        <input type="text" name="full-name" id="full-name"><br>
+        <label for="mail">Email</label><br>
+        <input type="text" name="mail" id="mail"><br>
+        <label for="addr">Địa chỉ</label><br>
+        <input type="text" name="addr" id="addr"><br>
+        <label for="phone">Số điện thoại</label><br>
+        <input type="text" name="phone" id="phone"><br>
+        <button>Hủy</button>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>
